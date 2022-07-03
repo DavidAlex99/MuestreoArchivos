@@ -30,6 +30,7 @@ int main(int argC,char* argV[])
 				token = strtok(NULL,d);
 				if(token!=NULL){
 					sum += atoi(token);
+					printf("%ld\n", sum);
  
 				if(i==3)
 					idle = atoi(token);
